@@ -10,7 +10,7 @@ Presenta una síntesis del proyecto, incluyendo el contexto en el que surge, la 
 | Documento | Descripción |
 |---|---|
 | [Informe.md](./Informe.md) | Documento principal del proyecto |
-| [Instalacion.md](./Instalacion.md) | Guía de instalación, desarrollo y despliegue |
+| [Instalación.md](./Instalación.md) | Guía de instalación, desarrollo y despliegue |
 
 ## Estudiantes
 
