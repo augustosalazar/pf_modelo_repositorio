@@ -50,7 +50,16 @@ Explica cómo se estructurará la solución a nivel conceptual y técnico, justi
 
 ### 7.1 Evaluación de alternativas
 
-Presenta las opciones consideradas, como tecnologías, patrones o enfoques, y justifica la elección mediante criterios claros.
+Antes de definir cómo se construirá el sistema, es necesario analizar diferentes formas posibles de implementarlo.
+
+La evaluación de alternativas consiste en:
+
+- identificar múltiples opciones tecnológicas o arquitectónicas;
+- compararlas usando criterios de ingeniería;
+- justificar la selección de la opción más adecuada.
+
+En esta sección deben presentarse las alternativas consideradas, los criterios utilizados para compararlas y la justificación de la decisión tomada. La selección final debe estar alineada con los requerimientos, restricciones y objetivos del proyecto.
+
 
 ### 7.2 Arquitectura
 
@@ -111,7 +120,7 @@ Lista y justifica las tecnologías, frameworks, librerías y herramientas utiliz
 
 ### 8.2 Componentes
 
-Describe los módulos implementados, sus responsabilidades y cómo interactúan entre sí.
+Documenta los componentes o módulos efectivamente implementados, indicando su estado de desarrollo, las funcionalidades que cubren, las decisiones técnicas relevantes tomadas durante su construcción y, cuando aplique, las diferencias entre el diseño propuesto y la implementación realizada.
 
 ### 8.3 Integraciones
 
