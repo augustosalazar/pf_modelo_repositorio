@@ -52,6 +52,7 @@ Ejemplo:
 ├── Informe.md
 ├── Instalacion.md
 └── Desarrollo.md
+```
 
 ### 3.2 Descripción de directorios y archivos relevantes
 
