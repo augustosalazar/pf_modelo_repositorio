@@ -6,7 +6,28 @@ Presenta una síntesis breve del problema abordado, la solución propuesta, el a
 
 ## 1. Introducción
 
-Presenta el contexto del proyecto, la situación actual y la necesidad u oportunidad que da origen al trabajo.
+### Contextos
+
+- **Dominio o sector** (ej. educación, industria, salud, ciudades inteligentes, TI).
+- **Tendencias tecnológicas relevantes**.
+- **Rol de los sistemas de información / software / datos** en ese contexto.
+
+### Situación actual
+
+- **Limitaciones del mercado actual**.
+- **Carencias funcionales o de diseño**.
+- **Impacto en usuarios**.
+
+### Necesidad identificada
+
+- **Necesidad técnica clara**.
+- **Oportunidad de diseño tecnológico**.
+
+### Propuesta general
+
+- **Nombre del sistema**.
+- **Funcionalidades clave**.
+- **Impacto esperado**.
 
 ## 2. Planteamiento del problema
 
