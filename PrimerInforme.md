@@ -35,6 +35,8 @@ Redacta la introducción como un texto continuo de 4 párrafos. El primero debe 
 
 Define y delimita el problema central, explicando qué se busca resolver y por qué es relevante.
 
+El problema se define como una **carencia o déficit** que se manifiesta como un **estado negativo** en una situación real (no teórica), localizado en una **población objetivo bien definida**. No debe confundirse con la falta de un servicio específico ni con la inexistencia de una solución tecnológica. El problema no es "hace falta un sistema que integre X", sino la evidencia de una situación deficiente: por ejemplo, "existen aplicaciones diferentes e incompatibles en los distintos departamentos de la empresa, lo que genera desconexión entre las unidades y pérdida de calidad en la información para la toma de decisiones". Tampoco se trata de un trabajo para una empresa en particular, sino de una **problemática transferible** a contextos similares.
+
 ### 2.1 Descripción del problema
 
 Expone con claridad la problemática, sus causas, a quién afecta y cuáles son sus principales consecuencias.
@@ -49,17 +51,60 @@ Indica las principales limitaciones y condiciones asumidas para plantear la solu
 
 ## 3. Alcance del proyecto
 
-Especifica qué incluye y qué no incluye el proyecto, delimitando entregables, funcionalidades generales y fronteras del trabajo.
+Define los límites del proyecto especificando qué incluye y qué no incluye.
+
+### Incluye
+
+- **Funcionalidades principales del sistema**.
+- **Tipo de usuarios involucrados**.
+- **Nivel de madurez de la solución** (prototipo, MVP, diseño detallado).
+- **Entornos cubiertos** (web, móvil, backend, integración).
+
+### No incluye
+
+- Funcionalidades futuras o deseables.
+- Implementaciones a escala productiva.
+- Integraciones externas no críticas.
+- Soporte operativo post-proyecto.
 
 ## 4. Objetivos
 
 Establece el objetivo general del proyecto y los objetivos específicos que guiarán su desarrollo.
 
+Los objetivos refieren a la situación o logros que se pretenden alcanzar con el desarrollo del proyecto. Todos los demás elementos y su estructura se derivan de estos: metodología, marco teórico, resultados, etc. Por ello debe prestarse **mayor atención** en su proceso de formulación.
+
+Deben ser **claros, viables, susceptibles de alcanzarse y congruentes entre sí**. Son la base de la evaluación del proyecto.
+
+Se recomienda que sean **SMART**:
+
+- **S**pecific (específicos): definidos con precisión.
+- **M**easurable (medibles): verificables mediante indicadores.
+- **A**chievable (alcanzables): realistas según los recursos y el tiempo.
+- **R**elevant (relevantes): alineados con el problema y la solución.
+- **T**ime-bound (con plazo): acotados en el tiempo del proyecto.
+
+Los objetivos deben redactarse con **verbos en infinitivo** que indiquen acciones concretas y verificables. Verbos recomendados: *desarrollar, diseñar, implementar, evaluar, analizar, determinar, establecer, validar, modelar, construir, integrar, optimizar, documentar, automatizar, configurar, definir, identificar, clasificar, comparar, proponer*. Evitar verbos ambiguos como *conocer, entender, estudiar, saber*.
+
 ### 4.1 Objetivo general
+
+Muestra los cambios o efectos que se desean lograr en la situación inicial definida como problemática. Responde a la relación entre el **problema planteado** y los **propósitos o metas del desarrollo**.
 
 Formula de manera clara el propósito principal del proyecto.
 
+**Ejemplo:**
+
+> Definir proceso y estructura metodológica en la empresa XYZ para identificar, evaluar y reducir los riesgos relacionados con TI (Cumplimiento, estratégicos, operacionales) que puedan tener un impacto potencial sobre las actividades de TI que soportan las operaciones de negocio en el 2022, dentro de los niveles de tolerancia establecidos por la organización.
+
+*Análisis SMART del ejemplo:*
+- **S** — Específico: define proceso y estructura metodológica para riesgos TI (cumplimiento, estratégicos, operacionales).
+- **M** — Medible: se puede verificar mediante la existencia del proceso y estructura definidos.
+- **A** — Alcanzable: acotado a una empresa y a riesgos TI específicos.
+- **R** — Relevante: impacta directamente las operaciones de negocio soportadas por TI.
+- **T** — Con plazo: acotado al año 2022.
+
 ### 4.2 Objetivos específicos
+
+Hacen referencia a los productos o resultados que son necesarios para alcanzar el objetivo general. Son los fines inmediatos del desarrollo, se dimensionan en términos de los resultados esperados o metas, con verbos que indican acciones concretas y con un mayor nivel de detalle.
 
 Descompone el objetivo general en metas concretas, observables y alcanzables que orienten el desarrollo del trabajo.
 
