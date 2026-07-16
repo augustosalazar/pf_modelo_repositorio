@@ -8,9 +8,13 @@ Presenta una síntesis del proyecto, incluyendo el problema abordado, la soluci�
 
 Presenta el contexto del proyecto, la necesidad u oportunidad identificada y una breve descripción del estado actual del trabajo.
 
+Ver detalle completo en el [Primer Informe](./PrimerInforme.md#1-introducción).
+
 ## 2. Planteamiento del problema
 
 Define el problema central que aborda el proyecto y su relevancia.
+
+Ver detalle completo en el [Primer Informe](./PrimerInforme.md#2-planteamiento-del-problema).
 
 ### 2.1 Descripción del problema
 
@@ -24,13 +28,19 @@ Indica las limitaciones y condiciones consideradas para el desarrollo de la solu
 
 Delimita qué incluye y qué no incluye el proyecto en su estado actual, señalando si hubo ajustes respecto al planteamiento inicial.
 
+Ver detalle completo en el [Primer Informe](./PrimerInforme.md#3-alcance-del-proyecto).
+
 ## 3. Objetivos
 
 Presenta el objetivo general y los objetivos específicos que orientan el proyecto.
 
+Ver detalle completo en el [Primer Informe](./PrimerInforme.md#4-objetivos).
+
 ## 4. Estado del arte / soluciones relacionadas
 
 Resume soluciones o antecedentes relevantes y explica cómo se posiciona la propuesta frente a ellos.
+
+Ver detalle completo en el [Primer Informe](./PrimerInforme.md#6-estado-del-arte--soluciones-relacionadas).
 
 ## 5. Solución propuesta
 
@@ -39,6 +49,8 @@ Describe la solución desarrollada a alto nivel, explicando su enfoque general, 
 ## 6. Metodología de desarrollo
 
 Describe el enfoque metodológico seguido durante el proyecto, las iteraciones realizadas, las validaciones ejecutadas y los ajustes introducidos a partir de los hallazgos obtenidos.
+
+Ver detalle completo en el [Primer Informe](./PrimerInforme.md#7-metodología-de-desarrollo-y-plan-de-trabajo).
 
 ## 7. Requerimientos
 
