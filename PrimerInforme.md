@@ -6,6 +6,8 @@ Presenta una síntesis breve del problema abordado, la solución propuesta, el a
 
 ## 1. Introducción
 
+Redacta la introducción como un texto continuo de 4 párrafos. El primero debe describir el dominio o sector del proyecto, las tendencias tecnológicas relevantes y el rol del software en ese contexto. El segundo debe exponer la situación actual: limitaciones del mercado, carencias funcionales y el impacto en los usuarios. El tercero debe presentar la necesidad técnica identificada y la oportunidad de diseño tecnológico. El cuarto, opcional, debe cerrar con una presentación general de la solución propuesta (nombre, funcionalidades clave e impacto esperado), sirviendo de transición hacia las secciones siguientes.
+
 ### Contextos
 
 - **Dominio o sector** (ej. educación, industria, salud, ciudades inteligentes, TI).
