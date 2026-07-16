@@ -114,7 +114,28 @@ Describe a alto nivel la solución planteada para abordar el problema identifica
 
 ## 6. Estado del arte / soluciones relacionadas
 
-Presenta brevemente antecedentes o soluciones existentes relevantes, con el fin de contextualizar la propuesta y mostrar oportunidades de diferenciación, mejora o aporte.
+Presenta antecedentes o soluciones existentes relevantes, con el fin de contextualizar la propuesta y mostrar oportunidades de diferenciación, mejora o aporte.
+
+Responde a las preguntas: ¿qué soluciones existen hoy?, ¿cómo abordan el problema?, ¿qué limitaciones presentan?
+
+### Revisar
+
+- Productos comerciales.
+- Soluciones open-source.
+- Arquitecturas o enfoques técnicos relevantes.
+
+### Comparar
+
+- Funcionalidad.
+- Escalabilidad.
+- Costos.
+- Usabilidad.
+- Limitaciones técnicas.
+
+### Resultados esperados
+
+- Identificación de **vacíos, oportunidades o problemas no resueltos**.
+- **Justificación técnica** de por qué se requiere una nueva solución.
 
 ## 7. Metodología de desarrollo y plan de trabajo
 
