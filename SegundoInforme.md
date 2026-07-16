@@ -106,19 +106,44 @@ Explica cómo se estructura la solución a nivel conceptual y técnico.
 
 ### 10.1 Descripción general de la arquitectura
 
-Presenta el tipo de arquitectura adoptada, el enfoque general de la solución y la relación con la alternativa seleccionada.
+**Objetivo:** que el lector entienda cómo está pensado el sistema antes de ver cualquier representación visual.
+
+Debe incluir:
+
+- Tipo de arquitectura (cliente-servidor, basada en Backend as a Service, etc.).
+- Enfoque general de la solución.
+- Relación con la alternativa seleccionada previamente.
 
 ### 10.2 Componentes del sistema
 
-Describe los componentes principales del sistema, su responsabilidad y su relación con los requerimientos.
+Deben identificarse y explicarse:
+
+- **Componentes principales** del sistema (frontend, backend, base de datos, servicios externos).
+- **Responsabilidad** de cada uno.
+- **Relación con los requerimientos** del sistema.
+
+Esta parte debe terminar con el **diagrama de arquitectura del sistema**.
 
 ### 10.3 Interacción entre módulos
 
-Explica cómo se comunican los componentes, cuáles son los principales flujos de datos y cómo se gestionan sus dependencias.
+Debe explicarse:
+
+- Cómo se comunican los componentes.
+- Flujos de datos.
+- Dependencias.
+- Nivel de acoplamiento.
+
+Esta parte debe terminar con el **diagrama de interacción entre módulos**.
 
 ### 10.4 Comportamiento
 
-Describe secuencias relevantes del sistema mediante diagramas o explicaciones de flujos principales.
+Debe explicarse cómo se comportan los componentes, describiendo las principales secuencias de la arquitectura y respondiendo preguntas como:
+
+- ¿El flujo es eficiente? (latencia, pasos innecesarios).
+- ¿Existen cuellos de botella?
+- ¿La interacción refleja buen desacoplamiento?
+
+En esta parte se utilizan **diagramas de secuencia**.
 
 ## 11. Implementación y avance actual
 
