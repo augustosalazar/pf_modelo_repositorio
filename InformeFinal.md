@@ -60,13 +60,7 @@ Define atributos de calidad y restricciones del sistema, como rendimiento, segur
 
 Antes de definir cómo se construirá el sistema, es necesario analizar diferentes formas posibles de implementarlo.
 
-La evaluación de alternativas consiste en:
-
-- identificar múltiples opciones tecnológicas o arquitectónicas;
-- compararlas usando criterios de ingeniería;
-- justificar la selección de la opción más adecuada.
-
-En esta sección deben presentarse las alternativas consideradas, los criterios utilizados para compararlas y la justificación de la decisión tomada. La selección final debe estar alineada con los requerimientos, restricciones y objetivos del proyecto.
+Ver detalle completo en el [Segundo Informe](./SegundoInforme.md#8-evaluación-de-alternativas).
 
 ## 10. Diseño y arquitectura
 
