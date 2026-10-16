@@ -104,6 +104,12 @@ Expone las alternativas tecnológicas o arquitectónicas consideradas, los crite
 
 Explica cómo se estructura la solución a nivel conceptual y técnico.
 
+El informe debe contener, como mínimo, un diagrama de arquitectura, uno de
+interacción entre módulos, entre dos y cuatro diagramas de secuencia de procesos
+clave y un diagrama de despliegue. Cada figura debe tener título, numeración,
+una leyenda breve y una referencia en el texto que explique qué debe observar el
+lector.
+
 ### 10.1 Descripción general de la arquitectura
 
 **Objetivo:** que el lector entienda cómo está pensado el sistema antes de ver cualquier representación visual.
@@ -124,6 +130,17 @@ Deben identificarse y explicarse:
 
 Esta parte debe terminar con el **diagrama de arquitectura del sistema**.
 
+El diagrama de arquitectura presenta la estructura general de la solución. Debe
+mostrar los actores y los componentes principales, por ejemplo aplicaciones
+cliente, backend, base de datos y servicios externos, además de las relaciones
+entre ellos. Su propósito es dar una vista de alto nivel: no debe abrir los
+módulos internos ni detallar servidores, contenedores o configuraciones de
+infraestructura.
+
+Ejemplo:
+
+![Ejemplo de diagrama de arquitectura](./assets/diagramas/ejemplo-arquitectura.png)
+
 ### 10.3 Interacción entre módulos
 
 Debe explicarse:
@@ -135,6 +152,18 @@ Debe explicarse:
 
 Esta parte debe terminar con el **diagrama de interacción entre módulos**.
 
+El diagrama de interacción entre módulos explica cómo colaboran los componentes
+internos para cumplir una funcionalidad. Parte de los sistemas principales
+mostrados como cajas negras en el diagrama de arquitectura y abre los que sea
+necesario para representar módulos, responsabilidades y dependencias. Debe
+hacer visible la ruta entre la interfaz o API, los servicios, repositorios y
+adaptadores, sin convertirse en un diagrama de clases ni repetir el diagrama de
+despliegue.
+
+Ejemplo:
+
+![Ejemplo de diagrama de interacción entre módulos](./assets/diagramas/ejemplo-interaccion-modulos.png)
+
 ### 10.4 Comportamiento
 
 Debe explicarse cómo se comportan los componentes, describiendo las principales secuencias de la arquitectura y respondiendo preguntas como:
@@ -143,7 +172,18 @@ Debe explicarse cómo se comportan los componentes, describiendo las principales
 - ¿Existen cuellos de botella?
 - ¿La interacción refleja buen desacoplamiento?
 
-En esta parte se utilizan **diagramas de secuencia**.
+En esta parte se utilizan **diagramas de secuencia** para los procesos clave del
+proyecto. Incluya entre dos y cuatro secuencias. Cada una debe mostrar el orden
+temporal de mensajes o llamadas entre los participantes necesarios para ejecutar
+una funcionalidad específica, por ejemplo autenticación, creación de un recurso,
+procesamiento de una solicitud o generación de un reporte. Explique el flujo,
+los resultados y los posibles puntos de espera, error o cuello de botella; no
+represente una secuencia genérica que no corresponda a un caso de uso del
+proyecto.
+
+Ejemplo:
+
+![Ejemplo de diagrama de secuencia](./assets/diagramas/ejemplo-secuencia.png)
 
 ## 11. Implementación y avance actual
 
@@ -168,6 +208,17 @@ Indica qué elementos faltan por implementar, integrar, corregir o validar antes
 ## 12. Despliegue y operación preliminar
 
 Describe cómo se ejecuta actualmente la solución, en qué entorno funciona, qué dependencias requiere y cuál es su estado de despliegue o configuración.
+
+Esta sección debe terminar con el **diagrama de despliegue**. A diferencia del
+diagrama de arquitectura, representa dónde se ejecuta cada componente y cómo se
+distribuye en la infraestructura. Debe identificar dispositivos cliente, nodos o
+servidores, contenedores cuando apliquen, bases de datos y servicios externos,
+así como las conexiones relevantes. No se debe usar para describir los módulos
+internos del código.
+
+Ejemplo:
+
+![Ejemplo de diagrama de despliegue](./assets/diagramas/ejemplo-despliegue.png)
 
 ## 13. Validación preliminar
 

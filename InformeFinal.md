@@ -66,6 +66,11 @@ Ver detalle completo en el [Segundo Informe](./SegundoInforme.md#8-evaluación-d
 
 Explica cómo se estructurará la solución a nivel conceptual y técnico, justificando decisiones clave.
 
+Incluya las figuras con numeración, título y una explicación en el texto que
+indique qué representa cada una. El informe final debe contener un diagrama de
+arquitectura, uno de interacción entre módulos, entre dos y cuatro diagramas de
+secuencia de procesos clave y un diagrama de despliegue.
+
 ### 10.1 Arquitectura
 
 La arquitectura describe la estructura fundamental del sistema, incluyendo sus componentes, las relaciones entre ellos y la forma en que interactúan para cumplir con los requerimientos planteados.
@@ -92,6 +97,11 @@ Deben identificarse y explicarse:
 
 Esta parte debe terminar con el **diagrama de arquitectura del sistema**.
 
+El diagrama de arquitectura muestra la estructura lógica de alto nivel: actores,
+componentes principales y relaciones entre aplicaciones cliente, backend, base
+de datos y servicios externos. No debe detallar módulos internos ni la
+infraestructura donde se ejecutan.
+
 ##### 10.1.2.2 Interacción entre módulos
 
 Debe explicarse:
@@ -103,6 +113,11 @@ Debe explicarse:
 
 Esta parte debe terminar con el **diagrama de interacción entre módulos**.
 
+Este diagrama abre los sistemas necesarios del diagrama de arquitectura para
+mostrar cómo colaboran sus módulos internos, sus responsabilidades y sus
+dependencias. Debe diferenciar la interacción entre API, servicios, repositorios
+o adaptadores de la distribución física de la solución.
+
 ##### 10.1.2.3 Comportamiento
 
 Debe explicarse cómo se comportan los componentes, describiendo las principales secuencias de la arquitectura y respondiendo preguntas como:
@@ -113,7 +128,10 @@ Debe explicarse cómo se comportan los componentes, describiendo las principales
 - ¿existen cuellos de botella?
 - ¿la interacción refleja un buen desacoplamiento?
 
-En esta parte se utilizan **diagramas de secuencia**.
+En esta parte se utilizan **diagramas de secuencia**. Incluya entre dos y cuatro
+procesos clave y represente el orden temporal de los mensajes entre los
+participantes. Cada secuencia debe corresponder a un caso de uso real y explicar
+su resultado, posibles errores y puntos de espera relevantes.
 
 ## 11. Implementación
 
@@ -134,6 +152,12 @@ Explica las conexiones con servicios externos, como APIs, bases de datos, autent
 ## 12. Despliegue y operación
 
 Describe cómo se ejecuta, configura y opera la solución en su entorno previsto, incluyendo aspectos de instalación, infraestructura, dependencias, puesta en marcha y condiciones de operación, según aplique al proyecto.
+
+Esta sección debe incluir el **diagrama de despliegue**, que muestra dónde se
+ejecutan los componentes: dispositivos cliente, nodos, servidores, contenedores,
+bases de datos y servicios externos. Debe representar las conexiones de
+infraestructura y no sustituir el diagrama de arquitectura ni el de interacción
+entre módulos.
 
 ## 13. Validación
 
